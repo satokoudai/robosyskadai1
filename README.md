@@ -13,7 +13,7 @@ $ sudo reboot
 LEDをGPIO25へ接続
 ```
 $ git clone https://github.com/uenoshunsuke/robosyskadai1.git
-$ cd
+$ cd robosyskadai1
 $ make
 $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
